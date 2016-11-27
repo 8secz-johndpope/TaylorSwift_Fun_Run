@@ -384,8 +384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968f2a82c19c75540b1806393ebc71e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestialID: ca-app-pub-1727137525060332/7252759203
-  smallBanerID: ca-app-pub-1727137525060332/2822559603
+  interestialID: 'ca-app-pub-1727137525060332/6350457609 '
+  smallBanerID: 'ca-app-pub-1727137525060332/4873724405 '
 --- !u!1 &573530869
 GameObject:
   m_ObjectHideFlags: 0
