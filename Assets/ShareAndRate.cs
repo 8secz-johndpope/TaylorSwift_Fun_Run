@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 
 public class ShareAndRate : MonoBehaviour {
 
-	string subject = "Justin Bieber FUN RUN";
-	string body = "My Highscore is " + PlayerPrefs.GetFloat ("Highscore").ToString ("00");
+	string subject = "Taylor Swift FUN RUN";
+	string body = "Taylor Swift FUN RUN. My high score is " + PlayerPrefs.GetFloat ("Highscore").ToString ("00");
 
 	#if UNITY_IPHONE
 	
@@ -65,7 +65,7 @@ public class ShareAndRate : MonoBehaviour {
 	public void RateUs()
 	{
 		#if UNITY_ANDROID
-		Application.OpenURL("market://details?id=YOUR_ID");
+		Application.OpenURL("https://play.google.com/store/apps/details?id=ilf.games.ts_fun_run");
 		#elif UNITY_IPHONE
 		Application.OpenURL("itms-apps://itunes.apple.com/app/idYOUR_ID");
 		#endif
